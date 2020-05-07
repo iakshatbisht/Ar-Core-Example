@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="777b9b19-ba5e-49dc-a0cf-fe8ef922ed7d" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bRefRM7qXVyo145JWGBFr31p6F" />
+  <component name="PropertiesComponent">
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aknit\AndroidStudioProjects\ar_core_example\android\app\src\main\res\mipmap-xxxhdpi" />
+      <recent name="C:\Users\aknit\AndroidStudioProjects\ar_core_example\android\app\src\main\res\mipmap-xxhdpi" />
+      <recent name="C:\Users\aknit\AndroidStudioProjects\ar_core_example\android\app\src\main\res\mipmap-xhdpi" />
+      <recent name="C:\Users\aknit\AndroidStudioProjects\ar_core_example\android\app\src\main\res\mipmap-mdpi" />
+      <recent name="C:\Users\aknit\AndroidStudioProjects\ar_core_example\android\app\src\main\res\mipmap-hdpi" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="777b9b19-ba5e-49dc-a0cf-fe8ef922ed7d" name="Default Changelist" comment="" />
+      <created>1588599435136</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588599435136</updated>
+    </task>
+    <servers />
+  </component>
+</project>

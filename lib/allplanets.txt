@@ -1,0 +1,113 @@
+final ByteData mercurytextureBytes = await rootBundle.load('assets/mercury.jpg');
+    final mercuryMaterial = ArCoreMaterial(textureBytes: mercurytextureBytes.buffer.asUint8List());
+    final mercuryShape = ArCoreSphere(
+      materials: [mercuryMaterial],
+      radius: 0.02,
+    );
+    final mercury = ArCoreNode(
+      shape: mercuryShape,
+      position: vector.Vector3(0.2, 0, 0),
+      rotation: vector.Vector4(0, 0, 0, 0),
+    );
+
+/*
+    final ByteData venustextureBytes = await rootBundle.load('assets/venus.jpg');
+    final venusMaterial = ArCoreMaterial(textureBytes: venustextureBytes.buffer.asUint8List());
+    final venusShape = ArCoreSphere(
+      materials: [venusMaterial],
+      radius: 0.04,
+    );
+    final venus = ArCoreNode(
+      shape: mercuryShape,
+      position: vector.Vector3(0.2, 0, 0),
+      rotation: vector.Vector4(0, 0, 0, 0),
+    );
+
+    final ByteData earthtextureBytes = await rootBundle.load('assets/earth.jpg');
+    final earthMaterial = ArCoreMaterial(textureBytes: earthtextureBytes.buffer.asUint8List());
+    final earthShape = ArCoreSphere(
+      materials: [earthMaterial],
+      radius: 0.06,
+    );
+    final earth = ArCoreNode(
+      shape: earthShape,
+      position: vector.Vector3(0.2, 0, 0),
+      rotation: vector.Vector4(0, 0, 0, 0),
+    );
+
+    final ByteData marstextureBytes = await rootBundle.load('assets/mars.jpg');
+    final marsMaterial = ArCoreMaterial(textureBytes: marstextureBytes.buffer.asUint8List());
+    final marsShape = ArCoreSphere(
+      materials: [marsMaterial],
+      radius: 0.07,
+    );
+    final mars = ArCoreNode(
+      shape: marsShape,
+      position: vector.Vector3(0.2, 0, 0),
+      rotation: vector.Vector4(0, 0, 0, 0),
+    );
+
+    final ByteData jupitertextureBytes = await rootBundle.load('assets/jupiter.jpg');
+    final jupiterMaterial = ArCoreMaterial(textureBytes: jupitertextureBytes.buffer.asUint8List());
+    final jupiterShape = ArCoreSphere(
+      materials: [jupiterMaterial],
+      radius: 0.15,
+    );
+    final jupiter = ArCoreNode(
+      shape: jupiterShape,
+      position: vector.Vector3(0.2, 0, 0),
+      rotation: vector.Vector4(0, 0, 0, 0),
+    );
+
+    final ByteData saturntextureBytes = await rootBundle.load('assets/saturn.png');
+    final saturnMaterial = ArCoreMaterial(textureBytes: saturntextureBytes.buffer.asUint8List());
+    final saturnShape = ArCoreSphere(
+      materials: [saturnMaterial],
+      radius: 0.12,
+    );
+    final saturn = ArCoreNode(
+      shape: saturnShape,
+      position: vector.Vector3(0.2, 0, 0),
+      rotation: vector.Vector4(0, 0, 0, 0),
+    );
+
+    final ByteData uranustextureBytes = await rootBundle.load('assets/uranus.jpg');
+    final uranusMaterial = ArCoreMaterial(textureBytes: uranustextureBytes.buffer.asUint8List());
+    final uranusShape = ArCoreSphere(
+      materials: [uranusMaterial],
+      radius: 0.09,
+    );
+    final uranus = ArCoreNode(
+      shape: uranusShape,
+      position: vector.Vector3(0.2, 0, 0),
+      rotation: vector.Vector4(0, 0, 0, 0),
+    );
+
+    final ByteData neptunetextureBytes = await rootBundle.load('assets/neptune.jpg');
+    final neptuneMaterial = ArCoreMaterial(textureBytes: neptunetextureBytes.buffer.asUint8List());
+    final neptuneShape = ArCoreSphere(
+      materials: [neptuneMaterial],
+      radius: 0.08,
+    );
+    final neptune = ArCoreNode(
+      shape: neptuneShape,
+      position: vector.Vector3(0.2, 0, 0),
+      rotation: vector.Vector4(0, 0, 0, 0),
+    );
+*/
+
+    final ByteData textureBytes = await rootBundle.load('assets/sun.jpg');
+    final sunMatertial = ArCoreMaterial(
+      color: Color(0xffFC9601),
+      textureBytes: textureBytes.buffer.asUint8List(),
+    );
+    final sunShape = ArCoreSphere(
+      materials: [sunMatertial],
+      radius: 0.1,
+    );
+    final sun = ArCoreNode(
+      shape: sunShape,
+      children: [mercury],//,venus,earth,mars,jupiter,saturn,uranus,neptune],
+      position: hit.pose.translation + vector.Vector3(0.0, 1.0, 0.0),
+      rotation: hit.pose.rotation,
+    );
